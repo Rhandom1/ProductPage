@@ -4,7 +4,7 @@
 }
 
 #intro {
-    background-image: url(assets/placeholder-images-image_large.png);
+    background-image: url(assets/pexels-karolina-grabowska-4219101.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -14,16 +14,21 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: blue;
+    color: yellow;
     padding: 20px;
 }
 
 #intro .button {
     font-size: 18px;
     text-decoration: none;
-    color: blue;
-    border: blue 2px solid;
+    color: yellow;
+    border: yellow 2px solid;
     padding: 10px 20px;
     border-radius: 10px;
     margin-top: 20px;
+}
+
+#intro .button:hover {
+    background: blue;
+    color: yellow;
 }
