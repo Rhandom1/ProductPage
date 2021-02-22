@@ -1,0 +1,29 @@
+#grad {
+    background-image:linear-gradient(gold,rgb(252, 252, 214));
+    background-size: cover;
+}
+
+#intro {
+    background-image: url(assets/placeholder-images-image_large.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family:Arial, Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: blue;
+    padding: 20px;
+}
+
+#intro .button {
+    font-size: 18px;
+    text-decoration: none;
+    color: blue;
+    border: blue 2px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
