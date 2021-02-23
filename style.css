@@ -51,6 +51,7 @@
 
 #section-c div {
     padding: 20px;
+    max-height: 315px;
 }
 
 #section-c .box-1 {
