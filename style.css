@@ -32,3 +32,28 @@
     background: blue;
     color: yellow;
 }
+
+#section-a {
+    padding: 20px;
+    text-align: center;
+    background: blue;
+    color: yellow;
+}
+
+#section-b {
+    padding: 20px;
+    text-align: center;
+}
+
+#section-c {
+    display: flex;
+}
+
+#section-c div {
+    padding: 20px;
+}
+
+#section-c .box-1 {
+    background-image: url(assets/stuff.png) ;
+}
+
